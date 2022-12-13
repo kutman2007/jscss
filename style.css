@@ -1,0 +1,147 @@
+ *{
+    margin: 0;
+}
+body{
+    background-color: rgb(8, 8, 8);
+}
+.cub{
+  border: 5px solid rgb(59, 55, 55);
+  border-radius: 5%;
+  background-color: rgb(50, 37, 121);
+  width: 200px;
+  height: 200px;
+}
+
+.pop{
+    border: 2.5px solid rgb(59, 55, 55);
+    background-color: rgb(59, 55, 55);
+     width: 195px;
+    height: 50px;
+    border-radius: 1%;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 700px;
+    width: 900px;
+    margin-left: 350px;
+    margin-top: 70px;
+    
+}
+h1{
+    color: rgb(250, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px 5px rgb(237, 233, 233);
+}
+span{
+    color: aliceblue;
+   margin-left: 50px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.what{
+    color: aliceblue;
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tele{
+    color: aliceblue;
+    margin-left: 25px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.game{
+    color: aliceblue;
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fut{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fast{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.book{
+    margin-left: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.getup{
+    font-size: 20px;
+    color: rgb(245, 240, 240);
+    margin-top: 100px;
+    margin-left: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.go{
+    font-size: 20px;
+    color: rgb(245, 240, 240);
+    margin-top: 110px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.call{
+    font-size: 20px;
+    color: rgb(245, 240, 240);
+    margin-top: 110px;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chat{
+    font-size: 20px;
+    color: rgb(245, 240, 240);
+    margin-top: 110px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.play{
+    font-size: 20px;
+    color: rgb(245, 240, 240);
+    margin-top: 110px;
+    margin-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.eat{
+    font-size: 20px;
+    color: rgb(245, 240, 240);
+    margin-top: 110px;
+    margin-left: 68px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sleep{
+    font-size: 20px;
+    color: rgb(245, 240, 240);
+    margin-top: 110px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.zet{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+}
+@media (max-width:500px) {
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+      height: 2300px;
+      margin-left: 50px;
+    }
+    h1{
+        margin-right: 75px;
+    }
+}
+
+ 
